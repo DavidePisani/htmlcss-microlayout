@@ -1,0 +1,130 @@
+/* COMMON */
+img{
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-cont{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: inherit;
+}
+
+/* CARD */
+/* immagine card */
+.pc-img{
+    width: 100%;
+}
+
+/* sezione offerte */
+
+/* heading card */
+.pc-heading{
+    padding-top: 5px;
+}
+
+.pc-heading h2{
+    font-size: 25px;
+}
+
+/* main card */
+
+/* info hotel */
+.info-hotel{
+    color: #5a5a5a;
+}
+
+.round{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #00aa6c;
+    display: inline-block;
+    vertical-align: sub;
+}
+
+.info-hotel a{
+    font-size: 18px;
+    text-decoration: underline dotted #5a5a5a;
+    display: inline-block;
+}
+
+/* offerte */
+.offerts{
+    margin-top: 10px;
+}
+
+.see-offert{
+    justify-content: space-between;
+}
+
+.price-img{
+    width: 200px;
+    display: none;
+}
+
+.price h4{
+    color: red;
+    text-decoration: line-through;
+    font-size: 15px;
+    margin-bottom: 0;   
+}
+
+.price h3{
+    font-weight: bolder;
+    margin-bottom: 0; 
+}
+
+.price a {
+    color:#5a5a5a;
+    font-size: 20px;
+}
+
+.offerts a{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.info-offerts i{
+    font-size: 20px;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.info-offerts li{
+    font-weight: bolder;
+    
+}
+
+.info-offerts li:first-child{
+    font-size: 25px;
+}
+
+.other-site{
+    display: none;
+}
+
+/* card footer */
+
+.pc-footer p{
+    text-align: center;
+}
+
+
+/*  LG+XL  */
+
+@media screen and (){
+    
+}
