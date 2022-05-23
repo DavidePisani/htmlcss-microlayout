@@ -61,6 +61,20 @@ a:hover{
     display: inline-block;
 }
 
+.info-hotel p{
+    margin-bottom: 0;
+}
+
+.service{
+    margin-top: 10px;
+    display: none;
+}
+
+.service i{
+    padding-right: 5px;
+    color: black;
+}
+
 /* offerte */
 .offerts{
     margin-top: 10px;
@@ -78,13 +92,14 @@ a:hover{
 .price h4{
     color: red;
     text-decoration: line-through;
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 0;   
 }
 
 .price h3{
     font-weight: bolder;
-    margin-bottom: 0; 
+    margin-bottom: 0;
+    font-size: 35px;
 }
 
 .price a {
@@ -125,6 +140,7 @@ a:hover{
 
 /*  LG+XL  */
 
-@media screen and (){
+@media screen and (min-width: 992px){
+
     
 }
